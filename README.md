@@ -8,6 +8,39 @@ Axezent AI helps developers, researchers, and companies turn AI, software, math,
 **Core rule:**  
 No claim without a receipt.
 
+## Launch Status
+
+Axezent AI — Library of Verified Things v0.1.0 is finished and live.
+
+Completed:
+- public GitHub repository created;
+- all launch files uploaded;
+- README, license, docs, examples, tests, and site files added;
+- GitHub Actions workflow added;
+- GitHub Pages deployed;
+- first release published;
+- live website verified;
+- browser receipt verifier working;
+- ACCEPT demo working;
+- SHA-256 receipt output working;
+- Library registry showing;
+- pricing section showing;
+- Cash App support showing;
+- contact email showing;
+- truth-boundary language included.
+
+Final public status:
+
+```text
+AXEZENT_LIBRARY_OF_VERIFIED_THINGS__V0_1_PUBLIC_LAUNCH_COMPLETE
+```
+
+Truth label:
+
+```text
+PUBLIC_BUSINESS_LAYER__FINITE_RECEIPT_VERIFICATION__NO_GLOBAL_PROOF_CLAIM
+```
+
 ## What is included
 
 ```text
@@ -62,10 +95,12 @@ REJECT
 Test API endpoint:
 
 ```bash
-curl -fsS -H "Content-Type: application/json"   --data-binary @examples/passing_receipt.json   http://127.0.0.1:8000/verify
+curl -fsS -H "Content-Type: application/json" \
+  --data-binary @examples/passing_receipt.json \
+  http://127.0.0.1:8000/verify
 ```
 
-## Public truth boundary
+## Public Truth Boundary
 
 ACCEPT means the submitted receipt obeyed the deterministic checks implemented here. It does **not** prove:
 
