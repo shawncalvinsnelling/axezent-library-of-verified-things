@@ -1,0 +1,13 @@
+{
+  "name": "axezent-library-of-verified-things",
+  "version": "0.1.0-launch-kit",
+  "created": "2026-06-07",
+  "cash_app": "$Axezent",
+  "contact": "axezentai@Gmail.com",
+  "truth_boundary": "Finite receipt verification only. No global proof, AI alignment, investment, or guaranteed support claim.",
+  "entrypoints": {
+    "website": "site/index.html",
+    "cli": "verify.py",
+    "local_api": "api_server.py"
+  }
+}

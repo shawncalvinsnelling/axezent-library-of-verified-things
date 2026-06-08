@@ -1,0 +1,27 @@
+{
+  "schema": "AXZ-LVT-RECEIPT-v1",
+  "receipt_id": "AXZ-LVT-DEMO-0002",
+  "artifact_name": "Axezent AI CTR Failing Demo",
+  "artifact_type": "software_receipt",
+  "truth_label": "FINITE_RECEIPT_VERIFIED",
+  "claim": "This receipt intentionally contains a failed test to show rejection behavior.",
+  "scope": "Local deterministic receipt verification only. No global AI truthfulness claim.",
+  "evidence_hashes": [
+    {
+      "name": "bad_payload",
+      "sha256": "not-a-valid-sha256"
+    }
+  ],
+  "tests": [
+    {
+      "name": "schema_present",
+      "status": "PASS"
+    },
+    {
+      "name": "hash_format",
+      "status": "FAIL"
+    }
+  ],
+  "cash_app": "$Axezent",
+  "contact": "axezentai@Gmail.com"
+}

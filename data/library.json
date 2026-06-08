@@ -1,0 +1,33 @@
+{
+  "project": "Axezent AI \u2014 Library of Verified Things",
+  "version": "0.1.0-launch-kit",
+  "truth_boundary": "Finite, replayable, receipt-backed verification records only.",
+  "contact": "axezentai@Gmail.com",
+  "cash_app": "$Axezent",
+  "entries": [
+    {
+      "id": "LVT-CTR-001",
+      "name": "Axezent AI CTR Receipt Checker",
+      "category": "AI compliance verification",
+      "status": "PUBLIC_STANDARD_SEED",
+      "truth_label": "FINITE_POLICY_RECEIPT_CHECK",
+      "description": "Checks finite AI-agent trace receipts against declared deterministic policy rules."
+    },
+    {
+      "id": "LVT-PRK-001",
+      "name": "Axezent AI PRK-Fuzzer",
+      "category": "complexity reduction test data",
+      "status": "PUBLIC_STANDARD_SEED",
+      "truth_label": "FINITE_REDUCTION_RECEIPT_FUZZING",
+      "description": "Generates valid and controlled-invalid finite 3SAT-to-CLIQUE receipts for verifier stress tests."
+    },
+    {
+      "id": "LVT-COMPANY-001",
+      "name": "Library of Verified Things Website",
+      "category": "public proof-artifact dashboard",
+      "status": "LAUNCH_READY_STATIC_SITE",
+      "truth_label": "BUSINESS_LAYER_SCAFFOLD",
+      "description": "A static website and local verifier that make receipt-backed claims easy for customers to understand."
+    }
+  ]
+}

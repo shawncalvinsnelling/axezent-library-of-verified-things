@@ -1,0 +1,31 @@
+{
+  "schema": "AXZ-LVT-RECEIPT-v1",
+  "receipt_id": "AXZ-LVT-DEMO-0001",
+  "artifact_name": "Axezent AI CTR Passing Demo",
+  "artifact_type": "software_receipt",
+  "truth_label": "FINITE_RECEIPT_VERIFIED",
+  "claim": "The submitted artifact passed the declared finite checks in this demo receipt.",
+  "scope": "Local deterministic receipt verification only. No global AI truthfulness claim.",
+  "evidence_hashes": [
+    {
+      "name": "demo_payload",
+      "sha256": "817a83e0ca3badcd2306b2ff09bcab7ce7895ab1d597fa41b12c226ee2103f0e"
+    }
+  ],
+  "tests": [
+    {
+      "name": "schema_present",
+      "status": "PASS"
+    },
+    {
+      "name": "hash_format",
+      "status": "PASS"
+    },
+    {
+      "name": "claim_boundary_present",
+      "status": "PASS"
+    }
+  ],
+  "cash_app": "$Axezent",
+  "contact": "axezentai@Gmail.com"
+}

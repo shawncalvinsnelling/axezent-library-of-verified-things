@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Axezent AI — Library of Verified Things</title>
+  <meta name="description" content="Receipt-backed verification dashboard for finite AI, software, math, and research claims.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">
+      <span class="logo">AXZ</span>
+      <div>
+        <strong>Axezent AI</strong>
+        <small>Library of Verified Things</small>
+      </div>
+    </div>
+    <nav>
+      <a href="#verify">Verify</a>
+      <a href="#library">Library</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#donate">Cash App</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">No claim without a receipt.</p>
+        <h1>Turn AI, software, and research claims into replayable proof artifacts.</h1>
+        <p class="lead">
+          Axezent AI helps teams publish finite, deterministic, receipt-backed checks without overstating the claim.
+          ACCEPT means the submitted receipt passed declared local rules — not that the entire world has been solved.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#verify">Try the verifier</a>
+          <a class="button" href="#pricing">Enterprise options</a>
+        </div>
+      </div>
+      <div class="panel hero-panel">
+        <h2>Public Truth Boundary</h2>
+        <p>Finite receipts. Declared policy packs. SHA-256 evidence. Local checks. Clear PASS / REJECT / INCOMPLETE results.</p>
+        <ul class="checklist">
+          <li>AI agent output trace checks</li>
+          <li>Open-source receipt standards</li>
+          <li>Private audit vaults and dashboards</li>
+          <li>Math / software / research artifact ledgers</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="verify" class="grid two">
+      <div class="panel">
+        <h2>Receipt Verifier</h2>
+        <p>Paste a receipt JSON below or load a demo. Verification runs locally in the browser.</p>
+        <div class="toolbar">
+          <button id="loadPass">Load ACCEPT demo</button>
+          <button id="loadFail">Load REJECT demo</button>
+          <button id="clearReceipt">Clear</button>
+        </div>
+        <textarea id="receiptInput" spellcheck="false" aria-label="Receipt JSON"></textarea>
+        <button class="button primary wide" id="verifyButton">Verify receipt</button>
+      </div>
+      <div class="panel result-panel">
+        <h2>Result</h2>
+        <pre id="resultOutput">Ready. Load a demo or paste a receipt.</pre>
+      </div>
+    </section>
+
+    <section id="library" class="panel">
+      <div class="section-title">
+        <div>
+          <p class="eyebrow">Library</p>
+          <h2>Verified Things Registry</h2>
+        </div>
+        <input id="searchInput" placeholder="Search entries..." aria-label="Search registry">
+      </div>
+      <div id="libraryEntries" class="cards"></div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="panel">
+        <h3>Open-Core</h3>
+        <p class="price">$0</p>
+        <p>Static site, sample receipts, local CLI verifier, public docs.</p>
+      </div>
+      <div class="panel featured">
+        <h3>Founder Pilot</h3>
+        <p class="price">$500–$2,500</p>
+        <p>Custom receipt pack, customer onboarding, private review workflow, and signed certificate template.</p>
+      </div>
+      <div class="panel">
+        <h3>Enterprise</h3>
+        <p class="price">Custom</p>
+        <p>Hosted dashboards, private audit vaults, custom policy packs, integration support, and long-term receipt storage.</p>
+      </div>
+    </section>
+
+    <section id="donate" class="grid two">
+      <div class="panel">
+        <p class="eyebrow">Support</p>
+        <h2>Cash App</h2>
+        <p class="cash">$Axezent</p>
+        <button id="copyCash" class="button">Copy $Axezent</button>
+        <p class="fineprint">
+          Donations are voluntary support. They do not create equity, tokens, investment rights, ownership rights,
+          or guaranteed support obligations.
+        </p>
+      </div>
+      <div class="panel">
+        <p class="eyebrow">Contact</p>
+        <h2>Enterprise contact</h2>
+        <p><a href="mailto:axezentai@Gmail.com">axezentai@Gmail.com</a></p>
+        <p>Use this for pilots, signed certificates, dashboard deployments, custom policy packs, and integration support.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Shawn Calvin Snelling / Axezent AI. Public claims are receipt-bounded.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
